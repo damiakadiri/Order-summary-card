@@ -81,6 +81,7 @@ body {
   padding: 15px 40px;
   border-radius: 10px;
   margin-bottom: 30px;
+  box-shadow: 10px 20px 10px hsl(225, 100%, 94%);
 }
 
 .c-order {
