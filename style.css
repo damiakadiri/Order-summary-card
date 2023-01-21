@@ -1,0 +1,109 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display";
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  /* background: url("images/pattern-background-desktop.svg") cover; */
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+}
+
+.desktop-image {
+  position: absolute;
+  top: 0;
+}
+
+.child {
+  width: 450px;
+  height: 670px;
+  /* border: solid; */
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  top: -5;
+}
+
+.hero-img {
+  margin-bottom: 40px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+
+.order-summary {
+  font-size: 28px;
+  font-weight: 900;
+  opacity: 80%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.you-can {
+  font-size: 16px;
+  text-align: center;
+  opacity: 60%;
+  margin-bottom: 20px;
+}
+
+.pricing-plan {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 80%;
+  padding: 25px 0;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: 10%;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  width: 80%;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.c-order {
+  text-align: center;
+  font-weight: 900;
+  opacity: 70%;
+}
+
+article {
+  margin-left: 15px;
+  margin-right: 70px;
+}
+
+.first-p {
+  font-weight: 900;
+}
+
+.second-p {
+  opacity: 70%;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 15px;
+}
